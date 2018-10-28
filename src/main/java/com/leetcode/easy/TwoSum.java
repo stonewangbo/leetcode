@@ -1,19 +1,23 @@
 package com.leetcode.easy;
 
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class TwoSum {
     public int[] twoSum(int[] nums, int target) {
-        int[] res =  new int[2];
-        for(int a=0;a<nums.length;a++){
-            for(int b=1;a<nums.length;a++){
-                if(a==b)continue;
 
+        for(int a=0;a<nums.length-1;a++){
+            for(int b=1;b<nums.length;b++){
+
+                if(a==b)continue;
                 if(nums[a]+nums[b]==target){
-                    res[0]=a;
-                    res[1]=b;
-                    return res;
+                    return new int[]{a,b};
                 }
+
+
             }
+
         }
 
         return null;
