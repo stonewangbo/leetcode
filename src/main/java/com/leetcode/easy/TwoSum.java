@@ -1,5 +1,6 @@
 package com.leetcode.easy;
 
+
 public class TwoSum {
     public int[] twoSum(int[] nums, int target) {
         int[] res =  new int[2];
