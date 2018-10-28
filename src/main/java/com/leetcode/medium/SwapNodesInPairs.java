@@ -1,5 +1,7 @@
 package com.leetcode.medium;
 
+import com.leetcode.structure.ListNode;
+
 /**
  * Given a linked list, swap every two adjacent nodes and return its head.
  * Given 1->2->3->4, you should return the list as 2->1->4->3.

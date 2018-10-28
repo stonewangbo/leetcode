@@ -1,5 +1,6 @@
 package com.leetcode.medium;
 
+import com.leetcode.structure.ListNodeUtils;
 import org.junit.Assert;
 import org.junit.Test;
 

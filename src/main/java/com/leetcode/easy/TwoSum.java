@@ -1,8 +1,6 @@
 package com.leetcode.easy;
 
 
-import java.util.HashSet;
-import java.util.Set;
 
 public class TwoSum {
     public int[] twoSum(int[] nums, int target) {

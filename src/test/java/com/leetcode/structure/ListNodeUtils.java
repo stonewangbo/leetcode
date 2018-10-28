@@ -1,5 +1,7 @@
-package com.leetcode.medium;
+package com.leetcode.structure;
 
+
+import com.leetcode.structure.ListNode;
 
 import java.util.Arrays;
 
@@ -7,7 +9,7 @@ import java.util.Arrays;
 public class ListNodeUtils {
 
     public static int[] covert(ListNode ln){
-        int[] res = new int[1];
+        int[] res = new int[2];
         ListNode temp = ln;
         int curr= 0 ;
         while(temp!=null){
@@ -18,7 +20,6 @@ public class ListNodeUtils {
             temp = temp.next;
             curr++;
         }
-
 
         return  Arrays.copyOf(res, curr);
     }

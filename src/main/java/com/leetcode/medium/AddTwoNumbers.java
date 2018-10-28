@@ -1,5 +1,7 @@
 package com.leetcode.medium;
 
+import com.leetcode.structure.ListNode;
+
 public class AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode t1 = l1;
